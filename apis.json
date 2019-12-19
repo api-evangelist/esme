@@ -1,0 +1,52 @@
+{
+    "name": "Esme",
+    "description": "<p>At Esme, our aim is to provide the money your business needs quickly and with the minimum of fuss. By quickly verifying your details and analysing your credit profile, we waste no time seeing if we can make you an offer. You can relax knowing our security technology ensures the confidentiality and safety of your information.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/esmeloans-logo.png",
+    "tags": [
+        "api not found",
+        "banking",
+        "have api",
+        "relative data",
+        "service api",
+        "uk banks"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/esme\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Esme",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/esmeloans-logo.png",
+            "humanURL": "https:\/\/www.esmeloans.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/esme.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/esme-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Developers",
+            "url": "http:\/\/openbankingapis.io\/uk\/esme"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/openbanking.atlassian.net\/wiki\/spaces\/DZ\/pages\/54919225\/Open+Data+API+Dashboard#"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.esmeloans.com\/"
+        }
+    ]
+}
