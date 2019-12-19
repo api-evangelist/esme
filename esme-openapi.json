@@ -1,0 +1,105 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Esme",
+        "description": "This is an OpenAPI definition for the standard set of Open Banking (http:\/\/openbankingapis.io\/) APIs from Esme.",
+        "termsOfService": "https:\/\/www.openbanking.org.uk\/open-licence\/"
+    },
+    "servers": [
+        "httpsopenapi.esmeloans.comopen-banking\/v2.1\/"
+    ],
+    "paths": {
+        "unsecured-sme-loans\/": {
+            "get": {
+                "summary": "Get Unsecured SME Loans",
+                "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple SME Unsecured Loan products.",
+                "operationId": "PathOperation",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "atms": {
+                "type": "object",
+                "properties": {
+                    "meta": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "branches": {
+                "type": "object",
+                "properties": {
+                    "meta": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "personal_current_accounts": {
+                "type": "object",
+                "properties": {
+                    "meta": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "business_current_accounts": {
+                "type": "object",
+                "properties": {
+                    "meta": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "unsecured_sme_loans": {
+                "type": "object",
+                "properties": {
+                    "meta": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "commercial_credit_cards": {
+                "type": "object",
+                "properties": {
+                    "meta": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            }
+        }
+    }
+}
