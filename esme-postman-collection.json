@@ -1,5 +1,5 @@
 {
-    "id": "dbc78ab09b0ca657aff5737223c9c441",
+    "id": "94da910f333c35c823b78286c6eecb7d",
     "name": "Esme",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "2b58a878c0ef95febb52305e283faa2f",
+            "id": "cf1984a04ab0bf69b5ca379ecaff3fbd",
             "name": "Get Unsecured SME Loans",
             "url": "httpsopenapi.esmeloans.comopen-banking\/v2.1\/unsecured-sme-loans\/",
             "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple SME Unsecured Loan products.",
@@ -29,7 +29,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dbc78ab09b0ca657aff5737223c9c441",
+            "collectionId": "94da910f333c35c823b78286c6eecb7d",
             "rawModeData": ""
         }
     ]
